@@ -6,16 +6,16 @@
 #SBATCH --partition=secondary            # Partition (queue)
 #SBATCH --output=multi-serial.o%j        # Name of batch job output file
 
+start=`date +%s`
+
 infile=magus_decompose/unaligned_sequences.txt
 numsubsets=25
-start=`date +%s`
 
 echo $infile
 echo $numsubsets
 
 cd ${SLURM_SUBMIT_DIR}
 
-./clean.sh
 module load python/3
 python3 -m pip install -U dendropy
 
@@ -29,6 +29,12 @@ do
     ./mafft --localpair --maxiterate 100 --ep 0.123 --quiet --anysymbol ../magus_working_dir/decomposition/subset_$i.txt > ../tmp/$i.txt &
 done
 wait
+
+cd ..
+
+python3 MAGUS/magus.py -s tmp/ -o magus_result.txt
+
+./clean.sh
 
 end=`date +%s`
 runtime=$((end-start))
