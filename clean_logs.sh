@@ -1,0 +1,1 @@
+find  . -name 'multi-serial*' -exec rm {} \;
