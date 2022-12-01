@@ -2,7 +2,7 @@
 #SBATCH --time=00:30:00                  # Job run time (hh:mm:ss)
 #SBATCH --nodes=1                        # Number of nodes
 #SBATCH --ntasks-per-node=16             # Number of task (cores/ppn) per node
-#SBATCH --job-name=matlab_job            # Name of batch job
+#SBATCH --job-name=magus_job             # Name of batch job
 #SBATCH --partition=secondary            # Partition (queue)
 #SBATCH --output=multi-serial.o%j        # Name of batch job output file
 
