@@ -1,0 +1,720 @@
+data/amino_acid/BBA0101.tfa
+24
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: dendropy in /usr/local/python/3.7.0/lib/python3.7/site-packages (4.4.0)
+Collecting dendropy
+  Using cached DendroPy-4.5.2.tar.gz (15.2 MB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: setuptools in /usr/local/python/3.7.0/lib/python3.7/site-packages (from dendropy) (39.0.1)
+Using legacy 'setup.py install' for dendropy, since package 'wheel' is not installed.
+Installing collected packages: dendropy
+  Running setup.py install for dendropy: started
+  Running setup.py install for dendropy: finished with status 'done'
+Successfully installed dendropy-4.5.2
+WARNING: There was an error checking the latest version of pip.
+/var/spool/slurmd/job7385059/slurm_script: line 21: MAGUS: command not found
+/scratch/users/vikramr2/MAGUS-Cluster/mafft/mafftdir/bin/mafft: Cannot open ../magus_working_dir/decomposition/subset_24.txt.
+
+/scratch/users/vikramr2/MAGUS-Cluster/mafft/mafftdir/bin/mafft: Cannot open ../magus_working_dir/decomposition/subset_16.txt.
+
+/scratch/users/vikramr2/MAGUS-Cluster/mafft/mafftdir/bin/mafft: Cannot open ../magus_working_dir/decomposition/subset_23.txt.
+
+/scratch/users/vikramr2/MAGUS-Cluster/mafft/mafftdir/bin/mafft: Cannot open ../magus_working_dir/decomposition/subset_22.txt.
+
+/scratch/users/vikramr2/MAGUS-Cluster/mafft/mafftdir/bin/mafft: Cannot open ../magus_working_dir/decomposition/subset_18.txt.
+
+/scratch/users/vikramr2/MAGUS-Cluster/mafft/mafftdir/bin/mafft: Cannot open ../magus_working_dir/decomposition/subset_17.txt.
+
+/scratch/users/vikramr2/MAGUS-Cluster/mafft/mafftdir/bin/mafft: Cannot open ../magus_working_dir/decomposition/subset_21.txt.
+
+/scratch/users/vikramr2/MAGUS-Cluster/mafft/mafftdir/bin/mafft: Cannot open ../magus_working_dir/decomposition/subset_20.txt.
+
+/scratch/users/vikramr2/MAGUS-Cluster/mafft/mafftdir/bin/mafft: Cannot open ../magus_working_dir/decomposition/subset_19.txt.
+
+------------------------------------------------------------------------------
+  MAFFT v7.450 (2019/Aug/23)
+  https://mafft.cbrc.jp/alignment/software/
+  MBE 30:772-780 (2013), NAR 30:3059-3066 (2002)
+------------------------------------------------------------------------------
+High speed:
+  % mafft in > out
+  % mafft --retree 1 in > out (fast)
+
+High accuracy (for <~200 sequences x <~2,000 aa/nt):
+  % mafft --maxiterate 1000 --localpair  in > out (% linsi in > out is also ok)
+  % mafft --maxiterate 1000 --genafpair  in > out (% einsi in > out)
+  % mafft --maxiterate 1000 --globalpair in > out (% ginsi in > out)
+
+If unsure which option to use:
+  % mafft --auto in > out
+
+--op # :         Gap opening penalty, default: 1.53
+--ep # :         Offset (works like gap extension penalty), default: 0.0
+--maxiterate # : Maximum number of iterative refinement, default: 0
+--clustalout :   Output: clustal format, default: fasta
+--reorder :      Outorder: aligned, default: input order
+--quiet :        Do not report progress
+--thread # :     Number of threads (if unsure, --thread -1)
+--dash :         Add structural information (Rozewicki et al, submitted)
+------------------------------------------------------------------------------
+  MAFFT v7.450 (2019/Aug/23)
+  https://mafft.cbrc.jp/alignment/software/
+  MBE 30:772-780 (2013), NAR 30:3059-3066 (2002)
+------------------------------------------------------------------------------
+High speed:
+  % mafft in > out
+  % mafft --retree 1 in > out (fast)
+
+High accuracy (for <~200 sequences x <~2,000 aa/nt):
+  % mafft --maxiterate 1000 --localpair  in > out (% linsi in > out is also ok)
+  % mafft --maxiterate 1000 --genafpair  in > out (% einsi in > out)
+  % mafft --maxiterate 1000 --globalpair in > out (% ginsi in > out)
+
+If unsure which option to use:
+  % mafft --auto in > out
+
+--op # :         Gap opening penalty, default: 1.53
+--ep # :         Offset (works like gap extension penalty), default: 0.0
+--maxiterate # : Maximum number of iterative refinement, default: 0
+--clustalout :   Output: clustal format, default: fasta
+--reorder :      Outorder: aligned, default: input order
+--quiet :        Do not report progress
+--thread # :     Number of threads (if unsure, --thread -1)
+--dash :         Add structural information (Rozewicki et al, submitted)
+------------------------------------------------------------------------------
+  MAFFT v7.450 (2019/Aug/23)
+  https://mafft.cbrc.jp/alignment/software/
+  MBE 30:772-780 (2013), NAR 30:3059-3066 (2002)
+------------------------------------------------------------------------------
+High speed:
+  % mafft in > out
+  % mafft --retree 1 in > out (fast)
+
+High accuracy (for <~200 sequences x <~2,000 aa/nt):
+  % mafft --maxiterate 1000 --localpair  in > out (% linsi in > out is also ok)
+  % mafft --maxiterate 1000 --genafpair  in > out (% einsi in > out)
+  % mafft --maxiterate 1000 --globalpair in > out (% ginsi in > out)
+
+If unsure which option to use:
+  % mafft --auto in > out
+
+--op # :         Gap opening penalty, default: 1.53
+--ep # :         Offset (works like gap extension penalty), default: 0.0
+--maxiterate # : Maximum number of iterative refinement, default: 0
+--clustalout :   Output: clustal format, default: fasta
+--reorder :      Outorder: aligned, default: input order
+--quiet :        Do not report progress
+--thread # :     Number of threads (if unsure, --thread -1)
+--dash :         Add structural information (Rozewicki et al, submitted)
+------------------------------------------------------------------------------
+  MAFFT v7.450 (2019/Aug/23)
+  https://mafft.cbrc.jp/alignment/software/
+  MBE 30:772-780 (2013), NAR 30:3059-3066 (2002)
+------------------------------------------------------------------------------
+High speed:
+  % mafft in > out
+  % mafft --retree 1 in > out (fast)
+
+High accuracy (for <~200 sequences x <~2,000 aa/nt):
+  % mafft --maxiterate 1000 --localpair  in > out (% linsi in > out is also ok)
+  % mafft --maxiterate 1000 --genafpair  in > out (% einsi in > out)
+  % mafft --maxiterate 1000 --globalpair in > out (% ginsi in > out)
+
+If unsure which option to use:
+  % mafft --auto in > out
+
+--op # :         Gap opening penalty, default: 1.53
+--ep # :         Offset (works like gap extension penalty), default: 0.0
+--maxiterate # : Maximum number of iterative refinement, default: 0
+--clustalout :   Output: clustal format, default: fasta
+--reorder :      Outorder: aligned, default: input order
+--quiet :        Do not report progress
+--thread # :     Number of threads (if unsure, --thread -1)
+--dash :         Add structural information (Rozewicki et al, submitted)
+------------------------------------------------------------------------------
+  MAFFT v7.450 (2019/Aug/23)
+  https://mafft.cbrc.jp/alignment/software/
+  MBE 30:772-780 (2013), NAR 30:3059-3066 (2002)
+------------------------------------------------------------------------------
+High speed:
+  % mafft in > out
+  % mafft --retree 1 in > out (fast)
+
+High accuracy (for <~200 sequences x <~2,000 aa/nt):
+  % mafft --maxiterate 1000 --localpair  in > out (% linsi in > out is also ok)
+  % mafft --maxiterate 1000 --genafpair  in > out (% einsi in > out)
+  % mafft --maxiterate 1000 --globalpair in > out (% ginsi in > out)
+
+If unsure which option to use:
+  % mafft --auto in > out
+
+--op # :         Gap opening penalty, default: 1.53
+--ep # :         Offset (works like gap extension penalty), default: 0.0
+--maxiterate # : Maximum number of iterative refinement, default: 0
+--clustalout :   Output: clustal format, default: fasta
+--reorder :      Outorder: aligned, default: input order
+--quiet :        Do not report progress
+--thread # :     Number of threads (if unsure, --thread -1)
+--dash :         Add structural information (Rozewicki et al, submitted)
+------------------------------------------------------------------------------
+  MAFFT v7.450 (2019/Aug/23)
+  https://mafft.cbrc.jp/alignment/software/
+  MBE 30:772-780 (2013), NAR 30:3059-3066 (2002)
+------------------------------------------------------------------------------
+High speed:
+  % mafft in > out
+  % mafft --retree 1 in > out (fast)
+
+High accuracy (for <~200 sequences x <~2,000 aa/nt):
+  % mafft --maxiterate 1000 --localpair  in > out (% linsi in > out is also ok)
+  % mafft --maxiterate 1000 --genafpair  in > out (% einsi in > out)
+  % mafft --maxiterate 1000 --globalpair in > out (% ginsi in > out)
+
+If unsure which option to use:
+  % mafft --auto in > out
+
+--op # :         Gap opening penalty, default: 1.53
+--ep # :         Offset (works like gap extension penalty), default: 0.0
+--maxiterate # : Maximum number of iterative refinement, default: 0
+--clustalout :   Output: clustal format, default: fasta
+--reorder :      Outorder: aligned, default: input order
+--quiet :        Do not report progress
+--thread # :     Number of threads (if unsure, --thread -1)
+--dash :         Add structural information (Rozewicki et al, submitted)
+------------------------------------------------------------------------------
+  MAFFT v7.450 (2019/Aug/23)
+  https://mafft.cbrc.jp/alignment/software/
+  MBE 30:772-780 (2013), NAR 30:3059-3066 (2002)
+------------------------------------------------------------------------------
+High speed:
+  % mafft in > out
+  % mafft --retree 1 in > out (fast)
+
+High accuracy (for <~200 sequences x <~2,000 aa/nt):
+  % mafft --maxiterate 1000 --localpair  in > out (% linsi in > out is also ok)
+  % mafft --maxiterate 1000 --genafpair  in > out (% einsi in > out)
+  % mafft --maxiterate 1000 --globalpair in > out (% ginsi in > out)
+
+If unsure which option to use:
+  % mafft --auto in > out
+
+--op # :         Gap opening penalty, default: 1.53
+--ep # :         Offset (works like gap extension penalty), default: 0.0
+--maxiterate # : Maximum number of iterative refinement, default: 0
+--clustalout :   Output: clustal format, default: fasta
+--reorder :      Outorder: aligned, default: input order
+--quiet :        Do not report progress
+--thread # :     Number of threads (if unsure, --thread -1)
+--dash :         Add structural information (Rozewicki et al, submitted)
+------------------------------------------------------------------------------
+  MAFFT v7.450 (2019/Aug/23)
+  https://mafft.cbrc.jp/alignment/software/
+  MBE 30:772-780 (2013), NAR 30:3059-3066 (2002)
+------------------------------------------------------------------------------
+High speed:
+  % mafft in > out
+  % mafft --retree 1 in > out (fast)
+
+High accuracy (for <~200 sequences x <~2,000 aa/nt):
+  % mafft --maxiterate 1000 --localpair  in > out (% linsi in > out is also ok)
+  % mafft --maxiterate 1000 --genafpair  in > out (% einsi in > out)
+  % mafft --maxiterate 1000 --globalpair in > out (% ginsi in > out)
+
+If unsure which option to use:
+  % mafft --auto in > out
+
+--op # :         Gap opening penalty, default: 1.53
+--ep # :         Offset (works like gap extension penalty), default: 0.0
+--maxiterate # : Maximum number of iterative refinement, default: 0
+--clustalout :   Output: clustal format, default: fasta
+--reorder :      Outorder: aligned, default: input order
+--quiet :        Do not report progress
+--thread # :     Number of threads (if unsure, --thread -1)
+--dash :         Add structural information (Rozewicki et al, submitted)
+------------------------------------------------------------------------------
+  MAFFT v7.450 (2019/Aug/23)
+  https://mafft.cbrc.jp/alignment/software/
+  MBE 30:772-780 (2013), NAR 30:3059-3066 (2002)
+------------------------------------------------------------------------------
+High speed:
+  % mafft in > out
+  % mafft --retree 1 in > out (fast)
+
+High accuracy (for <~200 sequences x <~2,000 aa/nt):
+  % mafft --maxiterate 1000 --localpair  in > out (% linsi in > out is also ok)
+  % mafft --maxiterate 1000 --genafpair  in > out (% einsi in > out)
+  % mafft --maxiterate 1000 --globalpair in > out (% ginsi in > out)
+
+If unsure which option to use:
+  % mafft --auto in > out
+
+--op # :         Gap opening penalty, default: 1.53
+--ep # :         Offset (works like gap extension penalty), default: 0.0
+--maxiterate # : Maximum number of iterative refinement, default: 0
+--clustalout :   Output: clustal format, default: fasta
+--reorder :      Outorder: aligned, default: input order
+--quiet :        Do not report progress
+--thread # :     Number of threads (if unsure, --thread -1)
+--dash :         Add structural information (Rozewicki et al, submitted)
+./21.txt
+./19.txt
+./23.txt
+./16.txt
+./20.txt
+./18.txt
+./22.txt
+./24.txt
+./17.txt
+MAGUS was run with: MAGUS/magus.py -s tmp/ -o magus_result_4core.txt
+Running a task, output file: /scratch/users/vikramr2/MAGUS-Cluster/magus_result_4core.txt
+Subalignment paths already provided, skipping decomposition..
+Decomposed None into 15 subsets in 9.012222290039062e-05 sec..
+Subalignment paths already provided, skipping subalignments..
+Merging 15 subaligments..
+Read 30 sequences from /scratch/users/vikramr2/MAGUS-Cluster/tmp/15.txt ..
+Read 32 sequences from /scratch/users/vikramr2/MAGUS-Cluster/tmp/12.txt ..
+Read 36 sequences from /scratch/users/vikramr2/MAGUS-Cluster/tmp/4.txt ..
+Read 26 sequences from /scratch/users/vikramr2/MAGUS-Cluster/tmp/14.txt ..
+Read 33 sequences from /scratch/users/vikramr2/MAGUS-Cluster/tmp/3.txt ..
+Read 29 sequences from /scratch/users/vikramr2/MAGUS-Cluster/tmp/11.txt ..
+Read 42 sequences from /scratch/users/vikramr2/MAGUS-Cluster/tmp/2.txt ..
+Read 37 sequences from /scratch/users/vikramr2/MAGUS-Cluster/tmp/9.txt ..
+Read 40 sequences from /scratch/users/vikramr2/MAGUS-Cluster/tmp/1.txt ..
+Read 37 sequences from /scratch/users/vikramr2/MAGUS-Cluster/tmp/8.txt ..
+Read 33 sequences from /scratch/users/vikramr2/MAGUS-Cluster/tmp/7.txt ..
+Read 25 sequences from /scratch/users/vikramr2/MAGUS-Cluster/tmp/13.txt ..
+Read 41 sequences from /scratch/users/vikramr2/MAGUS-Cluster/tmp/6.txt ..
+Read 30 sequences from /scratch/users/vikramr2/MAGUS-Cluster/tmp/10.txt ..
+Read 38 sequences from /scratch/users/vikramr2/MAGUS-Cluster/tmp/5.txt ..
+Using 10 MAFFT backbones..
+Read 30 sequences from /scratch/users/vikramr2/MAGUS-Cluster/tmp/15.txt ..
+Running a task, output file: /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_4_mafft.txt
+Running an external tool, command: /scratch/users/vikramr2/MAGUS-Cluster/MAGUS/magus_tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 16 --anysymbol /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_4_unalign.txt > /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/temp_backbone_4_mafft.txt
+Read 32 sequences from /scratch/users/vikramr2/MAGUS-Cluster/tmp/12.txt ..
+Read 36 sequences from /scratch/users/vikramr2/MAGUS-Cluster/tmp/4.txt ..
+Read 26 sequences from /scratch/users/vikramr2/MAGUS-Cluster/tmp/14.txt ..
+Read 33 sequences from /scratch/users/vikramr2/MAGUS-Cluster/tmp/3.txt ..
+Read 29 sequences from /scratch/users/vikramr2/MAGUS-Cluster/tmp/11.txt ..
+Read 42 sequences from /scratch/users/vikramr2/MAGUS-Cluster/tmp/2.txt ..
+Read 37 sequences from /scratch/users/vikramr2/MAGUS-Cluster/tmp/9.txt ..
+Read 40 sequences from /scratch/users/vikramr2/MAGUS-Cluster/tmp/1.txt ..
+Read 37 sequences from /scratch/users/vikramr2/MAGUS-Cluster/tmp/8.txt ..
+Read 33 sequences from /scratch/users/vikramr2/MAGUS-Cluster/tmp/7.txt ..
+Read 25 sequences from /scratch/users/vikramr2/MAGUS-Cluster/tmp/13.txt ..
+Read 41 sequences from /scratch/users/vikramr2/MAGUS-Cluster/tmp/6.txt ..
+Read 30 sequences from /scratch/users/vikramr2/MAGUS-Cluster/tmp/10.txt ..
+Read 38 sequences from /scratch/users/vikramr2/MAGUS-Cluster/tmp/5.txt ..
+Running a task, output file: /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_10_mafft.txt
+Running an external tool, command: /scratch/users/vikramr2/MAGUS-Cluster/MAGUS/magus_tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 16 --anysymbol /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_10_unalign.txt > /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/temp_backbone_10_mafft.txt
+Running a task, output file: /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_2_mafft.txt
+Running an external tool, command: /scratch/users/vikramr2/MAGUS-Cluster/MAGUS/magus_tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 16 --anysymbol /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_2_unalign.txt > /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/temp_backbone_2_mafft.txt
+Running a task, output file: /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_9_mafft.txt
+Running an external tool, command: /scratch/users/vikramr2/MAGUS-Cluster/MAGUS/magus_tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 16 --anysymbol /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_9_unalign.txt > /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/temp_backbone_9_mafft.txt
+Running a task, output file: /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_6_mafft.txt
+Running an external tool, command: /scratch/users/vikramr2/MAGUS-Cluster/MAGUS/magus_tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 16 --anysymbol /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_6_unalign.txt > /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/temp_backbone_6_mafft.txt
+Running a task, output file: /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_8_mafft.txt
+Running an external tool, command: /scratch/users/vikramr2/MAGUS-Cluster/MAGUS/magus_tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 16 --anysymbol /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_8_unalign.txt > /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/temp_backbone_8_mafft.txt
+Running a task, output file: /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_1_mafft.txt
+Running an external tool, command: /scratch/users/vikramr2/MAGUS-Cluster/MAGUS/magus_tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 16 --anysymbol /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_1_unalign.txt > /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/temp_backbone_1_mafft.txt
+Running a task, output file: /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_5_mafft.txt
+Running an external tool, command: /scratch/users/vikramr2/MAGUS-Cluster/MAGUS/magus_tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 16 --anysymbol /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_5_unalign.txt > /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/temp_backbone_5_mafft.txt
+Running a task, output file: /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_7_mafft.txt
+Running an external tool, command: /scratch/users/vikramr2/MAGUS-Cluster/MAGUS/magus_tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 16 --anysymbol /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_7_unalign.txt > /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/temp_backbone_7_mafft.txt
+Running a task, output file: /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_3_mafft.txt
+Running an external tool, command: /scratch/users/vikramr2/MAGUS-Cluster/MAGUS/magus_tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 16 --anysymbol /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_3_unalign.txt > /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/temp_backbone_3_mafft.txt
+Completed a task, output file: /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_8_mafft.txt
+Feeding backbone /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_8_mafft.txt to the graph..
+Read 195 sequences from /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_8_mafft.txt ..
+Constructed backbone alignment map from /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_8_mafft.txt
+Fed backbone /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_8_mafft.txt to the graph.
+Completed a task, output file: /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_9_mafft.txt
+Feeding backbone /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_9_mafft.txt to the graph..
+Read 195 sequences from /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_9_mafft.txt ..
+Constructed backbone alignment map from /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_9_mafft.txt
+Fed backbone /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_9_mafft.txt to the graph.
+Completed a task, output file: /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_6_mafft.txt
+Feeding backbone /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_6_mafft.txt to the graph..
+Read 195 sequences from /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_6_mafft.txt ..
+Constructed backbone alignment map from /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_6_mafft.txt
+Fed backbone /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_6_mafft.txt to the graph.
+Completed a task, output file: /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_3_mafft.txt
+Feeding backbone /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_3_mafft.txt to the graph..
+Read 195 sequences from /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_3_mafft.txt ..
+Constructed backbone alignment map from /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_3_mafft.txt
+Fed backbone /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_3_mafft.txt to the graph.
+Completed a task, output file: /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_4_mafft.txt
+Feeding backbone /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_4_mafft.txt to the graph..
+Read 195 sequences from /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_4_mafft.txt ..
+Constructed backbone alignment map from /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_4_mafft.txt
+Fed backbone /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_4_mafft.txt to the graph.
+Completed a task, output file: /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_1_mafft.txt
+Feeding backbone /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_1_mafft.txt to the graph..
+Read 195 sequences from /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_1_mafft.txt ..
+Constructed backbone alignment map from /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_1_mafft.txt
+Fed backbone /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_1_mafft.txt to the graph.
+Completed a task, output file: /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_5_mafft.txt
+Feeding backbone /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_5_mafft.txt to the graph..
+Read 195 sequences from /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_5_mafft.txt ..
+Constructed backbone alignment map from /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_5_mafft.txt
+Fed backbone /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_5_mafft.txt to the graph.
+Completed a task, output file: /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_2_mafft.txt
+Feeding backbone /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_2_mafft.txt to the graph..
+Read 195 sequences from /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_2_mafft.txt ..
+Constructed backbone alignment map from /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_2_mafft.txt
+Fed backbone /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_2_mafft.txt to the graph.
+Completed a task, output file: /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_7_mafft.txt
+Feeding backbone /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_7_mafft.txt to the graph..
+Read 195 sequences from /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_7_mafft.txt ..
+Constructed backbone alignment map from /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_7_mafft.txt
+Fed backbone /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_7_mafft.txt to the graph.
+Completed a task, output file: /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_10_mafft.txt
+Feeding backbone /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_10_mafft.txt to the graph..
+Read 195 sequences from /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_10_mafft.txt ..
+Constructed backbone alignment map from /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_10_mafft.txt
+Fed backbone /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/backbone_10_mafft.txt to the graph.
+Wrote matrix to /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/graph.txt
+Built the alignment graph in 3061.4911031723022 sec..
+Running MCL alignment graph clustering..
+Running a task, output file: /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/clusters.txt
+Running an external tool, command: /scratch/users/vikramr2/MAGUS-Cluster/MAGUS/magus_tools/mcl/bin/mcl /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/graph.txt --abc -o /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/temp_clusters.txt -I 4
+Completed a task, output file: /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/clusters.txt
+Found 975 clusters..
+Clustered the graph in 24.058347940444946 sec..
+Purged duplicate clusters. Found 975 unique clusters..
+Found 0 row violations and 2516 column violations..
+Finished violations sweep. Now 0 row violations and 0 column violations..
+Purged cluster violations. Found 958 clean clusters..
+Finding graph trace with minimum clusters heuristic search..
+Reached new search frontier
+{0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0, 13: 0, 14: 0}
+Safe frontier reached.. dumping 0 from heap and resetting aggression..
+Reached new search frontier
+{0: 1, 1: 1, 2: 1, 3: 1, 4: 1, 5: 1, 6: 1, 7: 1, 8: 1, 9: 1, 10: 1, 11: 1, 12: 2, 13: 1, 14: 1}
+Heap limit 5000 reached.. Truncating heap to last frontier
+Increasing aggression to 1.2..
+Reached new search frontier
+{0: 2, 1: 2, 2: 2, 3: 2, 4: 3, 5: 2, 6: 2, 7: 2, 8: 2, 9: 2, 10: 2, 11: 2, 12: 3, 13: 2, 14: 2}
+Heap limit 5000 reached.. Truncating heap to last frontier
+Increasing aggression to 2..
+Reached new search frontier
+{0: 9, 1: 4, 2: 3, 3: 3, 4: 4, 5: 6, 6: 5, 7: 9, 8: 3, 9: 3, 10: 5, 11: 3, 12: 7, 13: 3, 14: 3}
+Heap limit 5000 reached.. Truncating heap to last frontier
+Increasing aggression to 4..
+Reached new search frontier
+{0: 21, 1: 7, 2: 30, 3: 6, 4: 5, 5: 8, 6: 8, 7: 45, 8: 4, 9: 5, 10: 6, 11: 5, 12: 9, 13: 5, 14: 6}
+Heap limit 5000 reached.. Truncating heap to last frontier
+Increasing aggression to 8..
+Heap limit 5000 reached.. Truncating heap to last frontier
+Setting search strategy to fully greedy..
+Reached new search frontier
+{0: 22, 1: 59, 2: 48, 3: 30, 4: 18, 5: 20, 6: 14, 7: 53, 8: 10, 9: 20, 10: 26, 11: 37, 12: 33, 13: 20, 14: 21}
+Heap limit 5000 reached.. Truncating heap to last frontier
+Increasing aggression to 1.2..
+Heap limit 5000 reached.. Truncating heap to last frontier
+Increasing aggression to 2..
+Heap limit 5000 reached.. Truncating heap to last frontier
+Increasing aggression to 4..
+Heap limit 5000 reached.. Truncating heap to last frontier
+Increasing aggression to 8..
+Heap limit 5000 reached.. Truncating heap to last frontier
+Setting search strategy to fully greedy..
+Reached new search frontier
+{0: 70, 1: 95, 2: 178, 3: 63, 4: 19, 5: 21, 6: 21, 7: 196, 8: 32, 9: 30, 10: 52, 11: 41, 12: 42, 13: 35, 14: 46}
+Reached new search frontier
+{0: 176, 1: 194, 2: 284, 3: 169, 4: 118, 5: 116, 6: 120, 7: 302, 8: 139, 9: 133, 10: 152, 11: 140, 12: 137, 13: 138, 14: 147}
+Safe frontier reached.. dumping 13 from heap and resetting aggression..
+Reached new search frontier
+{0: 199, 1: 217, 2: 307, 3: 192, 4: 143, 5: 138, 6: 143, 7: 325, 8: 164, 9: 157, 10: 174, 11: 163, 12: 160, 13: 160, 14: 169}
+Safe frontier reached.. dumping 8 from heap and resetting aggression..
+Reached new search frontier
+{0: 200, 1: 218, 2: 308, 3: 193, 4: 144, 5: 139, 6: 144, 7: 326, 8: 165, 9: 158, 10: 175, 11: 164, 12: 161, 13: 161, 14: 170}
+Reached new search frontier
+{0: 204, 1: 222, 2: 312, 3: 194, 4: 148, 5: 143, 6: 147, 7: 328, 8: 169, 9: 162, 10: 179, 11: 167, 12: 165, 13: 165, 14: 172}
+Safe frontier reached.. dumping 106 from heap and resetting aggression..
+Reached new search frontier
+{0: 268, 1: 286, 2: 379, 3: 263, 4: 212, 5: 210, 6: 210, 7: 397, 8: 236, 9: 225, 10: 245, 11: 230, 12: 232, 13: 232, 14: 238}
+Safe frontier reached.. dumping 1 from heap and resetting aggression..
+Reached new search frontier
+{0: 272, 1: 290, 2: 385, 3: 267, 4: 216, 5: 214, 6: 214, 7: 401, 8: 240, 9: 229, 10: 249, 11: 234, 12: 237, 13: 236, 14: 242}
+Reached new search frontier
+{0: 292, 1: 310, 2: 405, 3: 286, 4: 234, 5: 234, 6: 234, 7: 421, 8: 260, 9: 249, 10: 269, 11: 254, 12: 260, 13: 258, 14: 262}
+Safe frontier reached.. dumping 7 from heap and resetting aggression..
+Reached new search frontier
+{0: 324, 1: 343, 2: 438, 3: 319, 4: 267, 5: 266, 6: 267, 7: 454, 8: 293, 9: 280, 10: 302, 11: 287, 12: 293, 13: 291, 14: 295}
+Safe frontier reached.. dumping 1 from heap and resetting aggression..
+Reached new search frontier
+{0: 325, 1: 344, 2: 439, 3: 320, 4: 268, 5: 267, 6: 268, 7: 455, 8: 294, 9: 281, 10: 303, 11: 288, 12: 294, 13: 292, 14: 296}
+Reached new search frontier
+{0: 331, 1: 350, 2: 445, 3: 323, 4: 269, 5: 268, 6: 274, 7: 461, 8: 300, 9: 287, 10: 304, 11: 294, 12: 295, 13: 298, 14: 297}
+Safe frontier reached.. dumping 95 from heap and resetting aggression..
+Reached new search frontier
+{0: 346, 1: 365, 2: 460, 3: 339, 4: 285, 5: 282, 6: 289, 7: 476, 8: 315, 9: 302, 10: 318, 11: 309, 12: 309, 13: 312, 14: 311}
+Safe frontier reached.. dumping 1 from heap and resetting aggression..
+Reached new search frontier
+{0: 347, 1: 366, 2: 461, 3: 340, 4: 286, 5: 283, 6: 290, 7: 477, 8: 316, 9: 303, 10: 319, 11: 310, 12: 310, 13: 313, 14: 312}
+Reached new search frontier
+{0: 349, 1: 368, 2: 463, 3: 342, 4: 288, 5: 285, 6: 292, 7: 479, 8: 318, 9: 305, 10: 321, 11: 312, 12: 312, 13: 314, 14: 313}
+Reached new search frontier
+{0: 350, 1: 370, 2: 466, 3: 344, 4: 290, 5: 286, 6: 294, 7: 481, 8: 320, 9: 307, 10: 323, 11: 314, 12: 314, 13: 321, 14: 314}
+Heap limit 5000 reached.. Truncating heap to last frontier
+Increasing aggression to 1.2..
+Reached new search frontier
+{0: 353, 1: 372, 2: 468, 3: 346, 4: 291, 5: 289, 6: 295, 7: 482, 8: 322, 9: 308, 10: 324, 11: 316, 12: 315, 13: 323, 14: 316}
+Heap limit 5000 reached.. Truncating heap to last frontier
+Increasing aggression to 2..
+Reached new search frontier
+{0: 374, 1: 395, 2: 484, 3: 369, 4: 307, 5: 308, 6: 309, 7: 505, 8: 345, 9: 326, 10: 345, 11: 339, 12: 337, 13: 340, 14: 330}
+Safe frontier reached.. dumping 1053 from heap and resetting aggression..
+Reached new search frontier
+{0: 378, 1: 399, 2: 488, 3: 373, 4: 311, 5: 312, 6: 313, 7: 509, 8: 349, 9: 330, 10: 349, 11: 343, 12: 341, 13: 344, 14: 333}
+Safe frontier reached.. dumping 1 from heap and resetting aggression..
+Reached new search frontier
+{0: 427, 1: 448, 2: 537, 3: 422, 4: 360, 5: 361, 6: 362, 7: 558, 8: 396, 9: 379, 10: 397, 11: 392, 12: 390, 13: 393, 14: 382}
+Safe frontier reached.. dumping 3 from heap and resetting aggression..
+Reached new search frontier
+{0: 431, 1: 452, 2: 540, 3: 426, 4: 364, 5: 365, 6: 366, 7: 561, 8: 399, 9: 383, 10: 401, 11: 396, 12: 394, 13: 397, 14: 386}
+Safe frontier reached.. dumping 1 from heap and resetting aggression..
+Reached new search frontier
+{0: 433, 1: 454, 2: 542, 3: 428, 4: 366, 5: 367, 6: 368, 7: 562, 8: 400, 9: 385, 10: 403, 11: 398, 12: 396, 13: 399, 14: 388}
+Reached new search frontier
+{0: 434, 1: 455, 2: 543, 3: 429, 4: 367, 5: 368, 6: 369, 7: 564, 8: 403, 9: 386, 10: 404, 11: 399, 12: 397, 13: 400, 14: 389}
+Reached new search frontier
+{0: 437, 1: 459, 2: 544, 3: 433, 4: 371, 5: 372, 6: 373, 7: 566, 8: 405, 9: 390, 10: 405, 11: 403, 12: 401, 13: 404, 14: 391}
+Heap limit 5000 reached.. Truncating heap to last frontier
+Increasing aggression to 1.2..
+Reached new search frontier
+{0: 444, 1: 489, 2: 557, 3: 442, 4: 385, 5: 390, 6: 382, 7: 586, 8: 416, 9: 404, 10: 414, 11: 433, 12: 412, 13: 421, 14: 399}
+Reached new search frontier
+{0: 445, 1: 490, 2: 558, 3: 443, 4: 386, 5: 391, 6: 383, 7: 587, 8: 417, 9: 405, 10: 415, 11: 434, 12: 413, 13: 422, 14: 400}
+Reached new search frontier
+{0: 448, 1: 493, 2: 561, 3: 446, 4: 389, 5: 394, 6: 390, 7: 590, 8: 420, 9: 408, 10: 418, 11: 437, 12: 416, 13: 425, 14: 403}
+Reached new search frontier
+{0: 449, 1: 494, 2: 562, 3: 447, 4: 390, 5: 395, 6: 391, 7: 591, 8: 421, 9: 409, 10: 419, 11: 438, 12: 417, 13: 426, 14: 404}
+Reached new search frontier
+{0: 450, 1: 495, 2: 563, 3: 448, 4: 391, 5: 396, 6: 393, 7: 592, 8: 423, 9: 410, 10: 420, 11: 439, 12: 418, 13: 427, 14: 405}
+Heap limit 5000 reached.. Truncating heap to last frontier
+Increasing aggression to 2..
+Reached new search frontier
+{0: 451, 1: 496, 2: 564, 3: 449, 4: 392, 5: 397, 6: 394, 7: 594, 8: 424, 9: 411, 10: 421, 11: 440, 12: 419, 13: 428, 14: 406}
+Reached new search frontier
+{0: 456, 1: 501, 2: 568, 3: 450, 4: 396, 5: 402, 6: 397, 7: 598, 8: 425, 9: 415, 10: 426, 11: 445, 12: 424, 13: 433, 14: 411}
+Reached new search frontier
+{0: 457, 1: 502, 2: 569, 3: 451, 4: 397, 5: 403, 6: 398, 7: 599, 8: 428, 9: 416, 10: 427, 11: 446, 12: 425, 13: 435, 14: 412}
+Reached new search frontier
+{0: 459, 1: 504, 2: 571, 3: 453, 4: 398, 5: 405, 6: 399, 7: 601, 8: 430, 9: 418, 10: 429, 11: 448, 12: 427, 13: 436, 14: 414}
+Heap limit 5000 reached.. Truncating heap to last frontier
+Increasing aggression to 4..
+Reached new search frontier
+{0: 460, 1: 505, 2: 572, 3: 454, 4: 399, 5: 406, 6: 400, 7: 602, 8: 431, 9: 419, 10: 430, 11: 449, 12: 428, 13: 437, 14: 415}
+Reached new search frontier
+{0: 461, 1: 506, 2: 573, 3: 455, 4: 400, 5: 407, 6: 401, 7: 603, 8: 432, 9: 420, 10: 431, 11: 450, 12: 429, 13: 438, 14: 416}
+Reached new search frontier
+{0: 462, 1: 507, 2: 574, 3: 456, 4: 401, 5: 408, 6: 402, 7: 604, 8: 433, 9: 421, 10: 432, 11: 451, 12: 430, 13: 439, 14: 417}
+Reached new search frontier
+{0: 466, 1: 511, 2: 578, 3: 458, 4: 408, 5: 412, 6: 403, 7: 608, 8: 435, 9: 425, 10: 436, 11: 455, 12: 434, 13: 443, 14: 421}
+Reached new search frontier
+{0: 467, 1: 512, 2: 579, 3: 459, 4: 409, 5: 413, 6: 404, 7: 609, 8: 436, 9: 426, 10: 437, 11: 456, 12: 435, 13: 444, 14: 422}
+Reached new search frontier
+{0: 468, 1: 513, 2: 580, 3: 460, 4: 410, 5: 414, 6: 405, 7: 610, 8: 437, 9: 427, 10: 438, 11: 457, 12: 436, 13: 445, 14: 423}
+Heap limit 5000 reached.. Truncating heap to last frontier
+Increasing aggression to 8..
+Reached new search frontier
+{0: 469, 1: 514, 2: 581, 3: 461, 4: 411, 5: 415, 6: 406, 7: 611, 8: 438, 9: 428, 10: 439, 11: 458, 12: 437, 13: 446, 14: 424}
+Reached new search frontier
+{0: 470, 1: 515, 2: 582, 3: 462, 4: 412, 5: 416, 6: 407, 7: 612, 8: 439, 9: 429, 10: 440, 11: 459, 12: 438, 13: 447, 14: 425}
+Reached new search frontier
+{0: 471, 1: 516, 2: 583, 3: 463, 4: 413, 5: 417, 6: 408, 7: 613, 8: 440, 9: 430, 10: 441, 11: 460, 12: 439, 13: 448, 14: 426}
+Reached new search frontier
+{0: 473, 1: 518, 2: 585, 3: 464, 4: 416, 5: 419, 6: 409, 7: 615, 8: 442, 9: 432, 10: 442, 11: 462, 12: 441, 13: 450, 14: 428}
+Reached new search frontier
+{0: 474, 1: 519, 2: 586, 3: 465, 4: 417, 5: 420, 6: 410, 7: 616, 8: 443, 9: 433, 10: 443, 11: 463, 12: 442, 13: 451, 14: 429}
+Reached new search frontier
+{0: 475, 1: 520, 2: 587, 3: 466, 4: 418, 5: 421, 6: 411, 7: 617, 8: 444, 9: 434, 10: 444, 11: 464, 12: 443, 13: 452, 14: 430}
+Reached new search frontier
+{0: 487, 1: 532, 2: 599, 3: 469, 4: 420, 5: 433, 6: 423, 7: 629, 8: 448, 9: 446, 10: 456, 11: 476, 12: 455, 13: 466, 14: 442}
+Reached new search frontier
+{0: 489, 1: 534, 2: 601, 3: 471, 4: 422, 5: 435, 6: 425, 7: 632, 8: 450, 9: 448, 10: 457, 11: 478, 12: 456, 13: 468, 14: 444}
+Reached new search frontier
+{0: 490, 1: 535, 2: 602, 3: 472, 4: 423, 5: 436, 6: 427, 7: 633, 8: 451, 9: 450, 10: 458, 11: 479, 12: 457, 13: 469, 14: 445}
+Heap limit 5000 reached.. Truncating heap to last frontier
+Setting search strategy to fully greedy..
+Reached new search frontier
+{0: 491, 1: 536, 2: 603, 3: 473, 4: 424, 5: 437, 6: 433, 7: 640, 8: 452, 9: 455, 10: 460, 11: 480, 12: 469, 13: 472, 14: 446}
+Reached new search frontier
+{0: 492, 1: 537, 2: 604, 3: 474, 4: 425, 5: 438, 6: 434, 7: 641, 8: 453, 9: 456, 10: 461, 11: 481, 12: 470, 13: 473, 14: 447}
+Heap limit 5000 reached.. Truncating heap to last frontier
+Increasing aggression to 1.2..
+Reached new search frontier
+{0: 493, 1: 538, 2: 605, 3: 475, 4: 426, 5: 439, 6: 435, 7: 642, 8: 454, 9: 457, 10: 462, 11: 482, 12: 471, 13: 474, 14: 448}
+Heap limit 5000 reached.. Truncating heap to last frontier
+Increasing aggression to 2..
+Heap limit 5000 reached.. Truncating heap to last frontier
+Increasing aggression to 4..
+Heap limit 5000 reached.. Truncating heap to last frontier
+Increasing aggression to 8..
+Heap limit 5000 reached.. Truncating heap to last frontier
+Setting search strategy to fully greedy..
+Reached new search frontier
+{0: 498, 1: 549, 2: 610, 3: 482, 4: 433, 5: 446, 6: 436, 7: 652, 8: 478, 9: 460, 10: 465, 11: 493, 12: 488, 13: 477, 14: 453}
+Reached new search frontier
+{0: 499, 1: 550, 2: 611, 3: 498, 4: 434, 5: 447, 6: 437, 7: 653, 8: 479, 9: 461, 10: 466, 11: 494, 12: 489, 13: 478, 14: 454}
+Reached new search frontier
+{0: 500, 1: 551, 2: 612, 3: 499, 4: 435, 5: 448, 6: 438, 7: 654, 8: 480, 9: 462, 10: 467, 11: 495, 12: 490, 13: 479, 14: 455}
+Reached new search frontier
+{0: 501, 1: 552, 2: 613, 3: 500, 4: 436, 5: 449, 6: 439, 7: 655, 8: 481, 9: 464, 10: 468, 11: 496, 12: 491, 13: 480, 14: 456}
+Heap limit 5000 reached.. Truncating heap to last frontier
+Increasing aggression to 1.2..
+Reached new search frontier
+{0: 502, 1: 553, 2: 614, 3: 501, 4: 437, 5: 450, 6: 440, 7: 656, 8: 482, 9: 465, 10: 469, 11: 497, 12: 492, 13: 481, 14: 457}
+Reached new search frontier
+{0: 503, 1: 554, 2: 615, 3: 502, 4: 438, 5: 451, 6: 441, 7: 657, 8: 483, 9: 466, 10: 470, 11: 498, 12: 494, 13: 482, 14: 458}
+Heap limit 5000 reached.. Truncating heap to last frontier
+Increasing aggression to 2..
+Reached new search frontier
+{0: 504, 1: 555, 2: 616, 3: 503, 4: 439, 5: 452, 6: 442, 7: 658, 8: 484, 9: 467, 10: 471, 11: 499, 12: 495, 13: 483, 14: 459}
+Heap limit 5000 reached.. Truncating heap to last frontier
+Increasing aggression to 4..
+Heap limit 5000 reached.. Truncating heap to last frontier
+Increasing aggression to 8..
+Heap limit 5000 reached.. Truncating heap to last frontier
+Setting search strategy to fully greedy..
+Reached new search frontier
+{0: 534, 1: 608, 2: 695, 3: 520, 4: 477, 5: 472, 6: 453, 7: 672, 8: 485, 9: 503, 10: 508, 11: 543, 12: 499, 13: 491, 14: 491}
+Reached new search frontier
+{0: 535, 1: 616, 2: 696, 3: 525, 4: 482, 5: 479, 6: 457, 7: 675, 8: 489, 9: 508, 10: 513, 11: 548, 12: 504, 13: 496, 14: 496}
+Heap limit 5000 reached.. Truncating heap to last frontier
+Increasing aggression to 1.2..
+Reached new search frontier
+{0: 536, 1: 617, 2: 697, 3: 526, 4: 483, 5: 480, 6: 458, 7: 676, 8: 490, 9: 509, 10: 514, 11: 549, 12: 505, 13: 497, 14: 497}
+Heap limit 5000 reached.. Truncating heap to last frontier
+Increasing aggression to 2..
+Reached new search frontier
+{0: 537, 1: 618, 2: 698, 3: 527, 4: 484, 5: 481, 6: 459, 7: 677, 8: 491, 9: 510, 10: 515, 11: 550, 12: 506, 13: 498, 14: 498}
+Heap limit 5000 reached.. Truncating heap to last frontier
+Increasing aggression to 4..
+Heap limit 5000 reached.. Truncating heap to last frontier
+Increasing aggression to 8..
+Heap limit 5000 reached.. Truncating heap to last frontier
+Setting search strategy to fully greedy..
+Reached new search frontier
+{0: 539, 1: 627, 2: 699, 3: 548, 4: 501, 5: 508, 6: 476, 7: 740, 8: 494, 9: 537, 10: 540, 11: 581, 12: 534, 13: 499, 14: 525}
+Heap limit 5000 reached.. Truncating heap to last frontier
+Increasing aggression to 1.2..
+Heap limit 5000 reached.. Truncating heap to last frontier
+Increasing aggression to 2..
+Heap limit 5000 reached.. Truncating heap to last frontier
+Increasing aggression to 4..
+Heap limit 5000 reached.. Truncating heap to last frontier
+Increasing aggression to 8..
+Heap limit 5000 reached.. Truncating heap to last frontier
+Setting search strategy to fully greedy..
+Reached new search frontier
+{0: 582, 1: 697, 2: 700, 3: 584, 4: 568, 5: 528, 6: 511, 7: 764, 8: 536, 9: 586, 10: 559, 11: 632, 12: 550, 13: 555, 14: 542}
+Heap limit 5000 reached.. Truncating heap to last frontier
+Increasing aggression to 1.2..
+Heap limit 5000 reached.. Truncating heap to last frontier
+Increasing aggression to 2..
+Reached new search frontier
+{0: 583, 1: 705, 2: 704, 3: 585, 4: 576, 5: 529, 6: 512, 7: 765, 8: 563, 9: 596, 10: 560, 11: 634, 12: 552, 13: 576, 14: 543}
+Heap limit 5000 reached.. Truncating heap to last frontier
+Increasing aggression to 4..
+Heap limit 5000 reached.. Truncating heap to last frontier
+Increasing aggression to 8..
+Heap limit 5000 reached.. Truncating heap to last frontier
+Setting search strategy to fully greedy..
+Reached new search frontier
+{0: 589, 1: 732, 2: 707, 3: 586, 4: 589, 5: 538, 6: 513, 7: 772, 8: 572, 9: 646, 10: 564, 11: 660, 12: 570, 13: 586, 14: 551}
+Heap limit 5000 reached.. Truncating heap to last frontier
+Increasing aggression to 1.2..
+Heap limit 5000 reached.. Truncating heap to last frontier
+Increasing aggression to 2..
+Found alignment graph trace in 134.4306824207306 sec..
+Found a trace with 2243 clusters and a total cost of 15835525
+Skipping optimization pass..
+Finished optimization in 9.179115295410156e-05 sec..
+Uncompressed alignment will have 5458516 cells..
+Assembling final alignment in /scratch/users/vikramr2/MAGUS-Cluster/magus_result_4core.txt
+Running a task, output file: /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/induced_10.txt
+Read 30 sequences from /scratch/users/vikramr2/MAGUS-Cluster/tmp/10.txt ..
+Completed a task, output file: /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/induced_10.txt
+Read 30 sequences from /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/induced_10.txt ..
+Appending induced alignment, 30 sequences of length 10724..
+Running a task, output file: /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/induced_2.txt
+Read 42 sequences from /scratch/users/vikramr2/MAGUS-Cluster/tmp/2.txt ..
+Completed a task, output file: /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/induced_2.txt
+Read 42 sequences from /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/induced_2.txt ..
+Appending induced alignment, 42 sequences of length 10724..
+Running a task, output file: /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/induced_11.txt
+Read 29 sequences from /scratch/users/vikramr2/MAGUS-Cluster/tmp/11.txt ..
+Completed a task, output file: /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/induced_11.txt
+Read 29 sequences from /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/induced_11.txt ..
+Appending induced alignment, 29 sequences of length 10724..
+Running a task, output file: /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/induced_8.txt
+Read 37 sequences from /scratch/users/vikramr2/MAGUS-Cluster/tmp/8.txt ..
+Completed a task, output file: /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/induced_8.txt
+Read 37 sequences from /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/induced_8.txt ..
+Appending induced alignment, 37 sequences of length 10724..
+Running a task, output file: /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/induced_4.txt
+Read 36 sequences from /scratch/users/vikramr2/MAGUS-Cluster/tmp/4.txt ..
+Completed a task, output file: /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/induced_4.txt
+Read 36 sequences from /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/induced_4.txt ..
+Appending induced alignment, 36 sequences of length 10724..
+Running a task, output file: /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/induced_13.txt
+Read 25 sequences from /scratch/users/vikramr2/MAGUS-Cluster/tmp/13.txt ..
+Completed a task, output file: /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/induced_13.txt
+Read 25 sequences from /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/induced_13.txt ..
+Appending induced alignment, 25 sequences of length 10724..
+Running a task, output file: /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/induced_15.txt
+Read 30 sequences from /scratch/users/vikramr2/MAGUS-Cluster/tmp/15.txt ..
+Completed a task, output file: /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/induced_15.txt
+Read 30 sequences from /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/induced_15.txt ..
+Appending induced alignment, 30 sequences of length 10724..
+Running a task, output file: /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/induced_1.txt
+Read 40 sequences from /scratch/users/vikramr2/MAGUS-Cluster/tmp/1.txt ..
+Completed a task, output file: /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/induced_1.txt
+Read 40 sequences from /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/induced_1.txt ..
+Appending induced alignment, 40 sequences of length 10724..
+Running a task, output file: /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/induced_5.txt
+Read 38 sequences from /scratch/users/vikramr2/MAGUS-Cluster/tmp/5.txt ..
+Completed a task, output file: /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/induced_5.txt
+Read 38 sequences from /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/induced_5.txt ..
+Appending induced alignment, 38 sequences of length 10724..
+Running a task, output file: /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/induced_9.txt
+Read 37 sequences from /scratch/users/vikramr2/MAGUS-Cluster/tmp/9.txt ..
+Completed a task, output file: /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/induced_9.txt
+Read 37 sequences from /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/induced_9.txt ..
+Appending induced alignment, 37 sequences of length 10724..
+Running a task, output file: /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/induced_7.txt
+Read 33 sequences from /scratch/users/vikramr2/MAGUS-Cluster/tmp/7.txt ..
+Completed a task, output file: /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/induced_7.txt
+Read 33 sequences from /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/induced_7.txt ..
+Appending induced alignment, 33 sequences of length 10724..
+Running a task, output file: /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/induced_6.txt
+Read 41 sequences from /scratch/users/vikramr2/MAGUS-Cluster/tmp/6.txt ..
+Completed a task, output file: /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/induced_6.txt
+Read 41 sequences from /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/induced_6.txt ..
+Appending induced alignment, 41 sequences of length 10724..
+Running a task, output file: /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/induced_14.txt
+Read 26 sequences from /scratch/users/vikramr2/MAGUS-Cluster/tmp/14.txt ..
+Completed a task, output file: /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/induced_14.txt
+Read 26 sequences from /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/induced_14.txt ..
+Appending induced alignment, 26 sequences of length 10724..
+Running a task, output file: /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/induced_3.txt
+Read 33 sequences from /scratch/users/vikramr2/MAGUS-Cluster/tmp/3.txt ..
+Completed a task, output file: /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/induced_3.txt
+Read 33 sequences from /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/induced_3.txt ..
+Appending induced alignment, 33 sequences of length 10724..
+Running a task, output file: /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/induced_12.txt
+Read 32 sequences from /scratch/users/vikramr2/MAGUS-Cluster/tmp/12.txt ..
+Completed a task, output file: /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/induced_12.txt
+Read 32 sequences from /scratch/users/vikramr2/MAGUS-Cluster/magus_working_dir/graph/induced_12.txt ..
+Appending induced alignment, 32 sequences of length 10724..
+Wrote final alignment to /scratch/users/vikramr2/MAGUS-Cluster/magus_result_4core.txt
+Merged 15 subalignments into /scratch/users/vikramr2/MAGUS-Cluster/magus_result_4core.txt in 3221.9918739795685 sec..
+Completed a task, output file: /scratch/users/vikramr2/MAGUS-Cluster/magus_result_4core.txt
+Waiting for 0 tasks to finish..
+MAGUS finished in 3222.0009887218475 seconds..
+rm: cannot remove ‘magus_decompose/__pycache__’: No such file or directory
+MAGUS-Cluster Runtime: 3701 seconds
+Batch MAFFT Runtime: 51 seconds

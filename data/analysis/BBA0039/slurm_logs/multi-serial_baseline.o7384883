@@ -1,0 +1,24 @@
+data/amino_acid/BBA0039.tfa
+24
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: dendropy in /usr/local/python/3.7.0/lib/python3.7/site-packages (4.4.0)
+Collecting dendropy
+  Using cached DendroPy-4.5.2.tar.gz (15.2 MB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: setuptools in /usr/local/python/3.7.0/lib/python3.7/site-packages (from dendropy) (39.0.1)
+Using legacy 'setup.py install' for dendropy, since package 'wheel' is not installed.
+Installing collected packages: dendropy
+  Running setup.py install for dendropy: started
+  Running setup.py install for dendropy: finished with status 'done'
+Successfully installed dendropy-4.5.2
+WARNING: There was an error checking the latest version of pip.
+/var/spool/slurmd/job7384883/slurm_script: line 21: MAGUS: command not found
+MAGUS Runtime: 3104 seconds
+rm: cannot remove ‘magus_decompose/__pycache__’: No such file or directory
+rm: cannot remove ‘magus_decompose/magus_align/__pycache__’: No such file or directory
+rm: cannot remove ‘magus_decompose/magus_helpers/__pycache__’: No such file or directory
+rm: cannot remove ‘magus_decompose/magus_tasks/__pycache__’: No such file or directory
+rm: cannot remove ‘magus_decompose/magus_tools/__pycache__’: No such file or directory
+rm: cannot remove ‘magus_decompose/__pycache__’: No such file or directory
+rm: cannot remove ‘tmp’: No such file or directory
